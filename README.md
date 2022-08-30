@@ -8,6 +8,10 @@ Press ESC to leave.
 ```bash
 git clone https://github.com/NetworkFlux/FdF.git && cd FdF && bash launch.sh
 ```
+or
+```bash
+./fdf test_maps/<selectec_map.fdf>
+```
 
 <img src="https://github.com/NetworkFlux/FdF/blob/master/imgs/mars.png" width="400" height="250"> <img src="https://github.com/NetworkFlux/FdF/blob/master/imgs/Pyra.png" width="400" height="250">
 
