@@ -2,15 +2,25 @@
 
   
 
+  
+
 ## Usage (mac only) -- 👈
+
+  
 
   
 
 ```bash
 
-git clone https://github.com/NetworkFlux/push_swap.git && cd FdF && bash launch.sh
+  
+
+git clone https://github.com/NetworkFlux/FdF.git && cd FdF && bash launch.sh
+
+  
 
 ```
+
+  
 
   
 
@@ -18,7 +28,11 @@ git clone https://github.com/NetworkFlux/push_swap.git && cd FdF && bash launch.
 
   
 
+  
+
 ## Topics -- 🗝
+
+  
 
   
 
@@ -26,15 +40,17 @@ git clone https://github.com/NetworkFlux/push_swap.git && cd FdF && bash launch.
 
   
 
+  
+
 2. Graphic Library
 
   
 
-3. Events
-
   
 
-4. C
+3. C
+
+  
 
   
 
@@ -46,7 +62,11 @@ git clone https://github.com/NetworkFlux/push_swap.git && cd FdF && bash launch.
 
   
 
+  
+
 Creating a simple wireframe model representation of a 3D landscape by linking various points (x, y, z) thanks to line segments.
+
+  
 
   
 
@@ -58,20 +78,29 @@ Creating a simple wireframe model representation of a 3D landscape by linking va
 
   
 
-The wireframe should be able to represent basic geometry aswell as some landscapes :
+  
+
+The wireframe should be able to represent basic geometry aswell as some landscapes.
+
+- The map must be loaded from a valid *.fdf* file.
+- It must be **parsed** to retrieve its data.
+- **Compute and output** the wireframe.
+
+---
+Easy add-ons:
+- Add color for altitude
+- Interactive control
+- Zoom
 
   
 
-- **700** instructions on average for a stack of **100** integers
-
   
 
-- **5000** instructions on average for a stack of **500** integers
-
-  
   
 
 ## Rules -- 🚨
+
+  
 
   
 
@@ -79,70 +108,3 @@ If you are interested in the specifics of the project here is how it is supposed
 
   
 
-- You have 2 stacks named a and b.
-
-  
-
-- At the beginning :
-
-  
-
-The stack a contains a random amount of negative and/or positive numbers which cannot be duplicated.
-
-  
-
-The stack b is empty.
-
-  
-
-- The goal is to sort in ascending order numbers into stack a. To do so you have the following operations at your disposal :
-
-  
-
-sa (swap a): Swap the first 2 elements at the top of stack a. Do nothing if there is only one or no elements.
-
-  
-
-sb (swap b): Swap the first 2 elements at the top of stack b. Do nothing if there is only one or no elements.
-
-  
-
-ss : sa and sb at the same time.
-
-  
-
-pa (push a): Take the first element at the top of b and put it at the top of a. Do nothing if b is empty.
-
-  
-
-pb (push b): Take the first element at the top of a and put it at the top of b. Do nothing if a is empty.
-
-  
-
-ra (rotate a): Shift up all elements of stack a by 1. The first element becomes the last one.
-
-  
-
-rb (rotate b): Shift up all elements of stack b by 1. The first element becomes the last one.
-
-  
-
-rr : ra and rb at the same time.
-
-  
-
-rra (reverse rotate a): Shift down all elements of stack a by 1. The last element becomes the first one.
-
-  
-
-rrb (reverse rotate b): Shift down all elements of stack b by 1. The last element becomes the first one.
-
-  
-
-rrr : rra and rrb at the same time.
-
-  
-  
-  
-
-👍 Thanks to [o-reo](https://github.com/o-reo "o-reo GitHub") for his [push_swap visualizer](https://github.com/o-reo/push_swap_visualizer "push_swap visualizer") ! 👍
