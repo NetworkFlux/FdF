@@ -3,6 +3,8 @@
 
 During compilation you will see some warnings, just ignore them it comes from the MiniLibX.
 
+Press ESC to leave.
+
 ```bash
 git clone https://github.com/NetworkFlux/FdF.git && cd FdF && bash launch.sh
 ```
