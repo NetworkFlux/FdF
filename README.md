@@ -48,3 +48,5 @@ Each number represents a point in space:
 - The horizontal position corresponds to its axis.
 - The vertical position corresponds to its ordinate.
 - The value corresponds to its altitude.
+
+To actually create a window and to output some pixels onto that window I use the [MiniLibX API](https://harm-smits.github.io/42docs/libs/minilibx "MiniLibX").
