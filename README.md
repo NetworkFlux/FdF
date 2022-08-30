@@ -1,6 +1,8 @@
 # -- FdF (Fil de Fer) --
 ## Usage (mac only) -- 👈
 
+During compilation you will see some warnings, just ignore them it comes from the MiniLibX.
+
 ```bash
 git clone https://github.com/NetworkFlux/FdF.git && cd FdF && bash launch.sh
 ```
