@@ -39,9 +39,10 @@ If you are interested in the specifics of the project here is how it is supposed
 
 The coordinates of the landscape are stored in a .fdf file passed as a parameter to your program. Here is an example:
 
-<img src="https://github.com/NetworkFlux/FdF/blob/master/imgs/mars.png" width="600" height="350">
+<img src="https://github.com/NetworkFlux/FdF/blob/master/imgs/map_example.png" width="600" height="350">
 
 Each number represents a point in space:
 
 - The horizontal position corresponds to its axis.
-- The vertical position corresponds to its ordinate. • The value corresponds to its altitude.
+- The vertical position corresponds to its ordinate.
+- The value corresponds to its altitude.
