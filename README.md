@@ -1,7 +1,7 @@
 # -- FdF (Fil de Fer) --
 ## Usage (mac only) -- 👈
 
-During compilation you will see some warnings, just ignore them it comes from the MiniLibX.
+During compilation, you will see some warnings, just ignore them, it comes from the MiniLibX.
 
 Press ESC to leave.
 
@@ -29,7 +29,7 @@ Creating a simple wireframe model representation of a 3D landscape by linking va
 
 ## Objectives -- ✅
 
-The wireframe should be able to represent basic geometry aswell as some landscapes.
+The wireframe should be able to represent basic geometry as well as some landscapes.
 
 - The map must be loaded from a valid *.fdf* file.
 - It must be **parsed** to retrieve its data.
@@ -55,4 +55,4 @@ Each number represents a point in space:
 - The vertical position corresponds to its ordinate.
 - The value corresponds to its altitude.
 
-To actually create a window and to output some pixels onto that window I use the [MiniLibX API](https://harm-smits.github.io/42docs/libs/minilibx "MiniLibX").
+To actually create a window and to output some pixels onto that window, I use the [MiniLibX API](https://harm-smits.github.io/42docs/libs/minilibx "MiniLibX").
